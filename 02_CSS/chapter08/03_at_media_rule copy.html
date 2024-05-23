@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>@미디어 규칙 사용한 미디어 쿼리 사용하기</title>
+    <style>
+      /* 기본화면 */
+      @media screen {
+        /* 선택자는 내부에 따로 지정해줘야 한다 */
+        body {
+          background-color: red;
+        }
+      }
+      /* 인쇄될 때의 화면 */
+      @media print {
+        body {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore
+      mollitia rem cum fuga quos harum, non dolorem quam, quis provident
+      eligendi excepturi numquam quisquam delectus maiores a iusto sit?
+    </p>
+  </body>
+</html>
